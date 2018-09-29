@@ -12,10 +12,12 @@ router.get("/login", function(req, res){
   res.sendFile("login.html")
 } )
 router.post("/newcard", function (req, res){
+  console.log("new card")
+  console.log(req.body)
   var title = req.body.title
   var desc = req.body.desc
   var priority = req.body.priority
-  controller.newCard(title, description, priority, function(respuesta){
+  controlador.newCardController(title, desc, priority, function(respuesta){
     console.log("Recibido")
     res.send("Holi")
   })

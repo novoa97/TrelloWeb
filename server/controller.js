@@ -1,13 +1,10 @@
-var express = require{'express'}
-var controller = express.controller()
+var service = require('./service.js')
 
-var service = require{'./service.js'}
-
-function newcard(title,description,priority,callback){
+function newCardController(title,description,priority,callback){
 
   if(true){
 
-    service.newcard(title,description,priority,function(respuesta){
+    service.newCardService(title,description,priority,function(respuesta){
       callback(respuesta)
     })
   }
@@ -15,4 +12,6 @@ function newcard(title,description,priority,callback){
 }
 
 
-exports.create = function(req, res, next)
+module.exports = {
+  newCardController
+}
