@@ -15,17 +15,25 @@
         <div class="headerCmp" id="userActions"> <p> user stuff </p> </div>
       </section>
     </header>
-    <article class="midCont">
+    <div class="midCont">
         <form class="formCont">
-          <div class="credentials">
+          <div class="dataCard">
             Titulo de Tarjeta :<br /><br />
             <input type="text" class="titleCard" /><br /><br />
           </div>
-          <div class="credentials">
+          <div class="dataCard">
             Descripción:<br /><br />
             <input type="text" class="descrpCard" /><br /><br />
           </div>
+          <div class="dataCard">
+            Priority:
+            <select class="priorities">
+              <option value="Minor" class="priority"> Minor </option>
+              <option value="Major" class="priority"> Major </option>
+              <option value="Trivial" class="priority"> Trivial </option>
+            </select>
+          </div>
         </form>
-    </article>
+      </div>
   </body>
 </html>
