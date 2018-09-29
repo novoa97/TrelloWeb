@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fr-me-jim/APITrello/issues"
   },
-  "homepage": "https://github.com/fr-me-jim/APITrello#readme"
+  "homepage": "https://github.com/fr-me-jim/APITrello#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
 }
