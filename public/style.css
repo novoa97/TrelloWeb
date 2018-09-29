@@ -13,7 +13,6 @@ html,body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 10px, 10px, 5px, ey;
 /*	background:linear-gradient(to bottom right, #4ae095 10%, );*/
 }
 
@@ -34,7 +33,6 @@ html,body {
 }
 
 .logoJEDI {
-  width: 100%;
   height: 100%;
 }
 
