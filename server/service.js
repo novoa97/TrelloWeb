@@ -1,4 +1,4 @@
-function newCard ( title, description, priority, callback){
+function newCardService( title, description, priority, callback){
   var card={
     title: title,
     description:description,
@@ -6,4 +6,8 @@ function newCard ( title, description, priority, callback){
   }
   console.log(card)
   callback("OK");
+}
+
+module.exports = {
+  newCardService
 }
