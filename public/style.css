@@ -14,17 +14,18 @@ html,body {
 	justify-content: center;
 	align-items: center;
 /*	background:linear-gradient(to bottom right, #4ae095 10%, );*/
-   background-color: #a9d1f5;
-
-	/*background-color: #7395b4;*/
+   background-color: #2b6ca7;
 }
 
 .headerSec {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+	flex-direction: row;
+	align-items: center;
   width: 100%;
   height: 100%;
-  padding-right: : 10%;
+	color: white;
+  padding-right: : 20%;
   padding-left: : :10%;
 }
 
@@ -33,54 +34,31 @@ html,body {
 		display: flex;
 		justify-content: center;
     font-size: 20px;
-		b
-}
-
+}/*
 .logoJEDI {
   height: 100%;
-}
-
+}*/
 #title {
-  width: 60%;
+  width: auto;
   height: auto;
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
   font-size: 70px;
   font-family: "Open Sans";
 }
 
 #userActions{
-  width: 15%;
+  width: 10%;
+	height: 100%;
 	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 	justify-content: center;
 }
 /* HEADER CSS - END */
 
-/* CONTENT CSS - END */
-
-/*.midCont{
-		display: flex;
-		justify-content: center;
-	  position: relative;
-		width: 100%;
-		height: 100%;
-	/*	background-color: rgb(0, 0, 0);*/
-	}/*
-	.formCont {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		position:absolute;
-		top: 15%;
-		width: 40%;
-		height: 40%;
-	}
-	.descrpCard{
-	  size:30%;
-	}*/
-
-/* CONTENT CSS - END */
+/* CONTENT CSS  */
 
 @font-face {
   font-family: 'Source Sans Pro';
@@ -104,18 +82,27 @@ html,body {
   height: 100%;
   overflow: hidden;
 }
-.wrapper.form-success .container h1 {
+.wrapper.form-success .divForm h1 {
   -webkit-transform: translateY(85px);
           transform: translateY(85px);
 }
-.container {
-  max-width: 20%;
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+
+}
+.divForm {
+  width: 40%;
   margin: 0 auto;
   padding: 80px 0;
   height: auto;
   text-align: center;
+	background-color: rgba(237, 245, 247, 0.8);
 }
-.container h1 {
+.divForm h1 {
   font-size: 40px;
   transition-duration: 1s;
   transition-timing-function: ease-in-put;
@@ -132,7 +119,7 @@ html,body {
           appearance: none;
   outline: 0;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
@@ -140,9 +127,9 @@ html,body {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: black;
   transition-duration: 0.25s;
-  font-weight: 300;
+  font-weight: 300px;
 }
 .form input:hover {
   background-color: rgba(255, 255, 255, 0.4);
@@ -150,7 +137,6 @@ html,body {
 .form input:focus {
   background-color: white;
   width: 300px;
-  /*color: #53e3a6;*/
 	color: #138dfe;
 
 }
@@ -161,16 +147,17 @@ html,body {
   outline: 0;
   background-color: white;
   border: 0;
-  padding: 10px 15px;
+  padding: 1.5% 15px;
   color: #138dfe;
   border-radius: 3px;
-  width: 250px;
+  width: 35%;
   cursor: pointer;
   font-size: 18px;
   transition-duration: 0.25s;
 }
 .form button:hover {
-  background-color: #c3daec;
+	background-color: rgb(61, 140, 198);
+	color: white;
 }
 #dataCardP{
 	display: flex;
@@ -185,7 +172,10 @@ html,body {
 .cmpPrior{
 	width: 50%;
 }
-
+.cmpPrior select {
+	width: 40%;
+	align-content: center;
+}
 .bg-bubbles {
   position: absolute;
   top: 0;
@@ -295,3 +285,5 @@ html,body {
             transform: translateY(-700px) rotate(600deg);
   }
 }
+
+/* CONTENT CSS - END */
