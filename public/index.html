@@ -8,15 +8,16 @@
   <body>
     <header class="mainHeader">
       <section class="headerSec">
-        <div class="headerCmp" id="logoDiv">
+        <!--<div class="headerCmp" id="logoDiv">
             <img class="logoJEDI" alt="JEDI" src="https://jediupc.com/jedi-content/uploads/2014/12/logo-jedi-01.png" itemprop="logo">
-        </div>
+        </div>-->
         <div class="headerCmp" id="title"> <h>SysTrello</h>  </div>
         <div class="headerCmp" id="userActions"> <p> user stuff </p> </div>
       </section>
     </header>
     <div class="wrapper">
     <div class="container">
+      <div class="divForm"
         <form class="form">
           <h1>CARD CREATOR</h1>
           <div class="dataCard">
@@ -27,7 +28,8 @@
           </div>
           <div class="dataCard" id="dataCardP">
             <div class="cmpPrior"> <p>Prioridad:</p> </div>
-            <div class="cmpPrior"> <select class="priorities">
+            <div class="cmpPrior"> <select class="priorities" >
+              <option value="" selected disabled hidden>Prioridad</option>
               <option value="Minor" class="priority"> Minor </option>
               <option value="Major" class="priority"> Major </option>
               <option value="Trivial" class="priority"> Trivial </option>
@@ -35,6 +37,7 @@
           </div><br>
           <button type="submit" id="card-button">Send</button>
         </form>
+      </div>
         <ul class="bg-bubbles">
       		<li></li>
       		<li></li>
