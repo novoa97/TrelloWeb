@@ -16,7 +16,7 @@
       </section>
     </header>
     <div class="wrapper">
-    <div class="content">
+    <div class="container">
         <form class="form">
           <h1>CARD CREATOR</h1>
           <div class="dataCard">
@@ -25,15 +25,15 @@
           <div class="dataCard">
             <input type="text" class="descrpCard" placeholder="Descripción de tarjeta ..." /><br /><br />
           </div>
-          <div class="dataCard">
-            Priority:
-            <select class="priorities">
+          <div class="dataCard" id="dataCardP">
+            <div class="cmpPrior"> <p>Prioridad:</p> </div>
+            <div class="cmpPrior"> <select class="priorities">
               <option value="Minor" class="priority"> Minor </option>
               <option value="Major" class="priority"> Major </option>
               <option value="Trivial" class="priority"> Trivial </option>
-            </select>
-            <button type="submit" id="card-button">Send</button>
-          </div>
+            </select>  </div>
+          </div><br>
+          <button type="submit" id="card-button">Send</button>
         </form>
         <ul class="bg-bubbles">
       		<li></li>
