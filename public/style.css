@@ -217,8 +217,8 @@ html,body {
 }
 .bg-bubbles li:nth-child(4) {
   left: 40%;
-  width: 60px;
-  height: 60px;
+  width: 4.5%;
+  height: 9%;
   -webkit-animation-duration: 22s;
           animation-duration: 22s;
   background-color: rgba(255, 255, 255, 0.25);
@@ -228,8 +228,8 @@ html,body {
 }
 .bg-bubbles li:nth-child(6) {
   left: 80%;
-  width: 120px;
-  height: 120px;
+  width: 9%;
+  height: 19%;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   background-color: rgba(255, 255, 255, 0.2);
