@@ -236,15 +236,15 @@ html,body {
 }
 .bg-bubbles li:nth-child(7) {
   left: 32%;
-  width: 160px;
-  height: 160px;
+  width: 10.5%;
+  height: 20%;
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
 }
 .bg-bubbles li:nth-child(8) {
   left: 55%;
-  width: 20px;
-  height: 20px;
+	width: 6%;
+  height: 12%;
   -webkit-animation-delay: 15s;
           animation-delay: 15s;
   -webkit-animation-duration: 40s;
@@ -252,8 +252,8 @@ html,body {
 }
 .bg-bubbles li:nth-child(9) {
   left: 25%;
-  width: 10px;
-  height: 10px;
+  width: .7%;
+  height: 1.5%;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
@@ -262,8 +262,8 @@ html,body {
 }
 .bg-bubbles li:nth-child(10) {
   left: 90%;
-  width: 160px;
-  height: 160px;
+  width: 10%;
+  height: 24%;
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
 }
