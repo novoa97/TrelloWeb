@@ -15,6 +15,7 @@ html,body {
 	align-items: center;
 /*	background:linear-gradient(to bottom right, #4ae095 10%, );*/
    background-color: #2b6ca7;
+	 box-shadow: 1.5% 1.5% black;
 }
 
 .headerSec {
@@ -101,6 +102,7 @@ html,body {
   height: auto;
   text-align: center;
 	background-color: rgba(237, 245, 247, 0.8);
+	box-shadow: 1.5% 1.5% black;
 }
 .divForm h1 {
   font-size: 40px;
