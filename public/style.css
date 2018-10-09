@@ -32,6 +32,7 @@ html,body {
 }
 
 .headerCmp {
+	font-family: Source Sans Pro;
     height: 100%;
 		display: flex;
 		justify-content: center;
@@ -47,7 +48,7 @@ html,body {
 	justify-content: center;
 	flex-direction: row;
   font-size: 70px;
-  font-family: "Open Sans";
+	font-family: Source Sans Pro;
 }
 
 #userActions{
@@ -128,12 +129,14 @@ html,body {
   border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.6);
   width: 35%;
+
   border-radius: 3px;
   padding: 1.5% 1.8%;
   margin: 0 auto 1.5% auto;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 118%;
+	font-family: Source Sans Pro;
   color: black;
   transition-duration: 0.25s;
   font-weight: 300px;
@@ -155,11 +158,13 @@ html,body {
   background-color: white;
   border: 0;
   padding: 1.5% 1.8%;
-  color: #138dfe;
+  color: rgb(61, 140, 198);
   border-radius: 3px;
   width: 35%;
   cursor: pointer;
   font-size: 18px;
+	font-family: Source Sans Pro;
+	font-weight: bold;
   transition-duration: 0.25s;
 }
 .form button:hover {
@@ -177,12 +182,54 @@ html,body {
 #dataCardP p{
 	font-size: 22px;
 }
-.cmpPrior{
+.cmpPriorP, .cmpPriorS{
+	display: flex;
+	justify-content:flex-start;
+	text-align: right;
 	width: 50%;
+	padding-left: 3%;
 }
-.cmpPrior select {
-	width: 40%;
+.cmpPriorP p{
+	width: 100%;
+	padding-right: 15%;
+
+}
+.cmpPriorS select{
+	*width: 20%;
+	width: 60%;
+	padding-left: 10%;
+	padding-right: 10%;
 	align-content: center;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-weight: bold;
+	border: 0;
+	border-radius: 6%;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.6);
+	border-bottom: 2.5px solid;
+	border-bottom-color: rgb(61, 140, 198);
+
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+.cmpPriorS:focus{
+	background-color: white;
+}
+.cmpPriorS::after{
+	display: inline-block;
+	position: relative;
+	content: "";
+	top: 8px;
+	right: 15px;
+	z-index: 1;
+	pointer-events: none;
+	border-top: 6px solid black;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+	border-color: black transparent transparent transparent;
 }
 .bg-bubbles {
   position: absolute;
