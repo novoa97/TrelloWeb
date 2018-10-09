@@ -7,18 +7,19 @@ html,body {
 }
 
 /* HEADER CSS - END */
-.mainHeader{
+.mainHeader, .mainHeader h1{
+	font-family: Source Sans Pro;
   width: 100%;
   height: 13%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-/*	background:linear-gradient(to bottom right, #4ae095 10%, );*/
-   background-color: #2b6ca7;
-	 box-shadow: 1.5% 1.5% black;
+  background-color: #2b6ca7;
+	box-shadow: 1.5% 1.5% black;
 }
 
 .headerSec {
+	font-family: Source Sans Pro;
   display: flex;
   justify-content:center;
 	flex-direction: row;
@@ -108,6 +109,7 @@ html,body {
 	box-shadow: 1.5% 1.5% black;
 }
 .divForm h1 {
+	font-family: Source Sans Pro;
   font-size: 40px;
   transition-duration: 1s;
   transition-timing-function: ease-in-put;
@@ -169,6 +171,7 @@ html,body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+	font-family: Source Sans Pro;
 	height: auto;
 }
 #dataCardP p{
