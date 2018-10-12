@@ -15,7 +15,9 @@ html,body {
 	justify-content: center;
 	align-items: center;
   background-color: #2b6ca7;
-	box-shadow: 1.5% 1.5% black;
+}
+.mainHeader {
+	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
 }
 
 .headerSec {
@@ -202,8 +204,8 @@ html,body {
 }
 .cmpPriorS select{
 	width: 65%;
-	padding-left: 10%;
-	padding-right: 10%;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
 	align-content: center;
 	text-align: center;
 	font-family: Source Sans Pro;
@@ -226,22 +228,11 @@ html,body {
 .cmpPriorS select:hover{
 	background-color: white;
 }
-.cmpPriorS::before{
-	/*display: inline-block;
-	position: relative;
-	content: "";
-	top: 8px;
-	right: 15px;
-	z-index: 1;
-	pointer-events: none;
-	border-top: 6px solid black;
-	border-right: 6px solid transparent;
-	border-left: 6px solid transparent;
-	border-color: black transparent transparent transparent;
-	*/
+.cmpPriorS:before{
+	display: inline-block;
 	content: "\f107";
 	position: absolute;
-	font-family: "Font Awesome 5 Free";
+	font-family: fontawesome;
 	top: 0;
 	right: 33%;
 	width: 25px;
@@ -251,7 +242,10 @@ html,body {
 	font-size: 25px;
 	pointer-events: none;
 	background: rgba(61, 140, 198, 0.5);
-
+}
+.cmpPriorS i {
+	position: absolute;
+	right: 36%;
 }
 .bg-bubbles {
   position: absolute;
