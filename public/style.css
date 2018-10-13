@@ -185,7 +185,6 @@ html,body {
 	justify-content:flex-start;
 	text-align: right;
 	width: 50%;
-	padding-left: 3%;
 }
 .cmpPriorS{
 	position: absolute;
@@ -195,7 +194,7 @@ html,body {
 	width: 100%;
 	position: relative;
 	right: 60%;
-	padding-right: 15%;
+	padding-right: 5%;
 
 }
 
