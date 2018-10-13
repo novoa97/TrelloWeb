@@ -26,12 +26,13 @@
           </div>
           <div class="dataCard" id="dataCardP">
             <div class="cmpPriorP"> <p>Prioridad:</p> </div>
-            <div class="cmpPriorS"> <select>
-              <option value="Minor" class="priority"> Minor </option>
-              <option value="Major" class="priority"> Major </option>
-              <option value="Trivial" class="priority"> Trivial </option>
-            </select>
-            <i class="fas fa-angle-down"></i>
+            <div class="cmpPriorS">
+              <input type="radio" name="priority" id="minor" checked/>
+              <label for="minor"> Minor </label>
+              <input type="radio" name="priority" id="major"/>
+              <label for="minor"> Minor </label>
+              <input type="radio" name="priority" id="trivial"/>
+              <label for="minor"> Minor </label>
            </div>
           </div><br>
           <button type="submit" id="card-button">Send</button>
