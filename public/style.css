@@ -180,8 +180,6 @@ html,body {
 	display: none;
 }
 .form label {
-	/*width: 35%;
-	height: 50%;*/
 	display: inline-block;
 	padding: 5px 15px 5px 51px;
 	position: relative;
@@ -191,7 +189,6 @@ html,body {
 	-webkit-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-	/*background: rgba(0,0,0,0.1);*/
 }
 .form label:hover{
 	background: rgba(61, 140, 198, 0.73);
