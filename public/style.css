@@ -203,8 +203,9 @@ html,body {
 	border: 3px solid rgba(61, 140, 198, 0.73);
 	border-radius: 50%;
 	position: absolute;
+	align-items: center;
 	right:  65%;
-	bottom: 4%;
+	bottom: 3px;
 }
 #dataCardP{
 	display: flex;
