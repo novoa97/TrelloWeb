@@ -2,12 +2,14 @@ var express = require('express')
 var router = express.Router()
 var http = require('http'),
     qs = require('querystring');
+var path    = require("path");
 
 var controlador = require('./controller.js')
 
 router.get("/newcard", function(req, res){
-  res.sendFile("newCard.html")
-} )
+  res.sendFile('public/formulario.html', {root:'.'})
+})
+
 router.get("/login", function(req, res){
   res.sendFile("login.html")
 } )
