@@ -180,10 +180,8 @@ html,body {
 	display: none;
 }
 .form label {
-	width: 35%;
-	height: 100%;
-	display: inline-block
-	padding: 5px 15px;
+	display: inline-block;
+	padding: 5px 15px 5px 51px;
 	position: relative;
 	font-size: 1em;
 	border-radius: 3px;
@@ -191,7 +189,6 @@ html,body {
 	-webkit-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-	background: rgba(0,0,0,0.1);
 }
 .form label:hover{
 	background: rgba(61, 140, 198, 0.73);
@@ -199,15 +196,16 @@ html,body {
 }
 .form label::before{
 	content: "";
-	width: 20%;
-	height: 90%;
+	width: 18%;
+	height: 60%;
 	display: inline-block;
 	background: none;
 	border: 3px solid rgba(61, 140, 198, 0.73);
 	border-radius: 50%;
 	position: absolute;
-	right:  75%;
-	bottom: 3.5%;
+	align-items: center;
+	right:  65%;
+	bottom: 3px;
 }
 #dataCardP{
 	display: flex;
@@ -226,8 +224,8 @@ html,body {
 	flex-direction: row;
 }
 .cmpPriorS {
-	margin: 0 20px;
-	width: 50%;
+	margin: 0 10%;
+	width: 30%;
 	height: 90%;
 }
 .cmpPriorP p{
