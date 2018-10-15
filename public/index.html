@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header class="mainHeader">
+      <div class="headerSec">
+        <div class="headerCmp" id="title"> <h1>SysTrello</h1>  </div>
+        <div class="headerCmp" id="userActions"> <p> user stuff </p> </div>
+      </div>
+    </header>
+    <div class="wrapper">
+    <div class="container">
+      <div class="divForm">
+        <form class="form">
+          <h1>CARD CREATOR</h1><br>
+          <div class="dataCard">
+            <input type="text" class="titleCard" placeholder="Título de Tarjeta" /><br /><br />
+          </div>
+          <div class="dataCard">
+            <input type="text" class="descrpCard" placeholder="Descripción de tarjeta ..." /><br /><br />
+          </div>
+          <div class="dataCard" id="dataCardP">
+            <div class="cmpPriorP"> <p>Prioridad:</p> </div>
+            <div class="cmpPriorS">
+              <input type="radio" name="priority" id="minor"/>
+              <label for="minor"> Minor </label>
+              <input type="radio" name="priority" id="major"/>
+              <label for="major"> Major </label>
+              <input type="radio" name="priority" id="trivial"/>
+              <label for="trivial"> Trivial </label>
+           </div>
+          </div><br>
+          <button type="submit" id="card-button">Send</button>
+        </form>
+      </div>
+      <ul class="bg-bubbles">
+      	<li></li>
+      	<li></li>
+      	<li></li>
+      	<li></li>
+      	<li></li>
+      	<li></li>
+        <li></li>
+      	<li></li>
+      	<li></li>
+      	<li></li>
+      </ul>
+    </div>
+    </div>
+  </body>
+</html>
