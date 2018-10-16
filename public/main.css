@@ -15,12 +15,10 @@ html,body{
   src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
 }
 
-h1 {
-  /*color: white;
-}
-
-.navbar .navbar-default .navbar-fixed-top {
-  background: #2b6ca7;*/
+.navbar {
+  background-color: #2b6ca7;
+  color: white;
+  font-size: 1.2em;
 }
 
 
