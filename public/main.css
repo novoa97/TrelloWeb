@@ -3,6 +3,7 @@ html,body{
   height: 100%;
   font-family: SourceSansPro;
   font-size: 62.5%;
+  position:fixed;
 }
 
 @font-face {
@@ -17,7 +18,14 @@ html,body{
   font-weight: 300;
   src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
 }
-
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    font-size: .5rem;
+  }
+}
 .navbar {
   border-bottom: .1rem solid #2b6ca7;
   background: #2b6ca7;
@@ -34,6 +42,9 @@ html,body{
 }
 .navbar .navbar-brand:hover{
   color: white;
+}
+.container-fluid{
+  padding: 0;
 }
 .navbar-default .navbar-nav li a {
   color: rgba(255, 255, 255, 0.8);
