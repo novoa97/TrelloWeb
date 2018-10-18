@@ -54,38 +54,19 @@ html,body{
 
 /* FORM CSS */
 
-/*.row div {
-	display: block;
-	position: relative;
-	bottom:  5%;
-  width: 40%;
-  margin: 0 auto;
-  padding: 2.5% 0;
-  height: auto;
-  text-align: center;
-	background-color: rgba(237, 245, 247, 0.8);
-	box-shadow: 0 5px 25px rgba(0,0,0,.5);
-}
-.row div > h1 {
-	font-family: Source Sans Pro;
-  font-size: 40px;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-put;
-  font-weight: 200;
-}*/
 .form {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
   width: 50rem;
-  height: 60rem;
-  margin: auto auto;
+  height: 55rem;
+  margin: auto;
+  margin-bottom:  1rem;
   position: relative;
   z-index: 2;
   background-color: rgba(237, 245, 247, 0.8);
 	box-shadow: 0 .5rem 2.5rem rgba(0,0,0,.5);
-
 }
 .form-row{
   display: flex;
@@ -97,7 +78,6 @@ h1{
   position: relative;
   bottom: 5rem;
 }
-
 
 
 .titleCard, .descrpCard {
