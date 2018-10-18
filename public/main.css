@@ -18,14 +18,7 @@ html,body{
   font-weight: 300;
   src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
 }
-@media screen and (min-width: 768px) {
-  .navbar {
-    padding: 0;
-  }
-  .navbar .navbar-brand {
-    font-size: .5rem;
-  }
-}
+
 .navbar {
   border-bottom: .1rem solid #2b6ca7;
   background: #2b6ca7;
@@ -59,6 +52,88 @@ html,body{
   color: white;
  }
 
+/* FORM CSS */
+
+/*.row div {
+	display: block;
+	position: relative;
+	bottom:  5%;
+  width: 40%;
+  margin: 0 auto;
+  padding: 2.5% 0;
+  height: auto;
+  text-align: center;
+	background-color: rgba(237, 245, 247, 0.8);
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+}
+.row div > h1 {
+	font-family: Source Sans Pro;
+  font-size: 40px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-put;
+  font-weight: 200;
+}*/
+.form {
+  width: 50rem;
+  margin: auto;
+  position: relative;
+  top: 15rem;
+  z-index: 2;
+}
+.form::after{
+    background: black;
+}
+/*
+.titleCard, .descrpCard {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 35%;
+	max-height: 100%;
+  border-radius: 3px;
+  padding: 1.5% 1.8%;
+  margin: 0 auto 1.5% auto;
+  display: block;
+  text-align: center;
+  font-size: 118%;
+	font-family: Source Sans Pro;
+  color: black;
+  transition-duration: 0.25s;
+  font-weight: 300px;
+}
+.titleCard:hover, .descrpCard:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.titleCard:focus, .descrpCard:focus {
+  background-color: white;
+  width: 40%;
+	color: #138dfe;
+
+}
+.form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 1.5% 1.8%;
+  color: rgb(61, 140, 198);
+  border-radius: 3px;
+  width: 35%;
+  cursor: pointer;
+  font-size: 18px;
+	font-family: Source Sans Pro;
+	font-weight: bold;
+  transition-duration: 0.25s;
+}
+.form button:hover {
+	background-color: rgb(61, 140, 198);
+	color: white;
+}
 
 /* CSS - Bubbles */
 
