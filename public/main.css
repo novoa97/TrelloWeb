@@ -69,19 +69,11 @@ html,body{
 .navbar-default .navbar-nav li a {
   color: rgba(255, 255, 255, 0.8);
 }
-ul{
-  width: 25rem;
-  margin-left: auto;
-}
  .navbar-default .navbar-nav li a:hover {
   background: rgb(47, 94, 138);
   border: .1 solid rgb(47, 94, 138);
   border-radius: 1rem;
   color: white;
- }
-
- img{
-   margin-right: 1.1rem;
  }
 
  #brand-logo{
