@@ -66,14 +66,12 @@ html,body{
 .navbar .navbar-brand:hover{
   color: white;
 }
-.brand {
-  margin: auto;
-}
 .navbar-default .navbar-nav li a {
   color: rgba(255, 255, 255, 0.8);
 }
-.navbar-header .navbar-right .pull-right ul{
-  height: 100%;
+ul{
+  width: 25rem;
+  margin-left: auto;
 }
  .navbar-default .navbar-nav li a:hover {
   background: rgb(47, 94, 138);
@@ -87,7 +85,7 @@ html,body{
  }
 
  #brand-logo{
-   height: 5.5rem;
+   height: 6rem;
  }
 
 #prior {
@@ -95,7 +93,7 @@ html,body{
   margin: 0;
 }
 #title{
-  margin: 0 auto;
+  margin-right: 70%;
 }
 /* FORM CSS */
 
