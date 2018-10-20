@@ -329,12 +329,10 @@ h1{
 
 @media only screen and (max-width: 600px) {
   .navbar {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .navbar .navbar-brand{
-    color: white;
-    font-size: 2rem;
-    float: left;
+    font-size: 3rem;
   }
   .form {
     margin-top: 8rem;
