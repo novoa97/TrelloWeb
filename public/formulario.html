@@ -1,56 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>SysTrello</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--jquery&bootstrap js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--my css + js files-->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js"></script>
   </head>
   <body>
-    <header class="mainHeader">
-      <div class="headerSec">
-        <div class="headerCmp" id="title"> <h1>SysTrello</h1>  </div>
-        <div class="headerCmp" id="userActions"> <p> user stuff </p> </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header  logo  pull-left sample">
+            <a class="navbar-brand" href="formulari.html">SysTrello</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right pull-right sample">
+          <li><a href="login.html">Log In</a></li>
+         </li>
+        </ul>
       </div>
-    </header>
+    </nav>
     <div class="wrapper">
-    <div class="container">
-      <div class="divForm">
-        <form class="form">
-          <h1>CARD CREATOR</h1><br>
-          <div class="dataCard">
-            <input type="text" class="titleCard" placeholder="Título de Tarjeta" /><br /><br />
+      <form class="form">
+        <div class="top-header">
+          <div class="form-group">
+            <h1 class="text-center"> CARD CREATOR </h1>
           </div>
-          <div class="dataCard">
-            <input type="text" class="descrpCard" placeholder="Descripción de tarjeta ..." /><br /><br />
+        </div>
+        <div class="form-row">
+          <div class="col-md-8">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg titleCard" placeholder="Título de tarjeta">
+            </div>
           </div>
-          <div class="dataCard" id="dataCardP">
-            <div class="cmpPriorP"> <p>Prioridad:</p> </div>
-            <div class="cmpPriorS">
-              <input type="radio" name="priority" id="minor"/>
-              <label for="minor"> Minor </label>
-              <input type="radio" name="priority" id="major"/>
-              <label for="major"> Major </label>
-              <input type="radio" name="priority" id="trivial"/>
-              <label for="trivial"> Trivial </label>
-           </div>
-          </div><br>
-          <button type="submit" id="card-button">Send</button>
-        </form>
-      </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-8">
+            <div class="form-group">
+              <textarea class="form-control input-lg descrpCard" rows="3"  placeholder="Descripción de tarjeta..."></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-8">
+            <p class="text-center pull-left" id="prior">Prioridad: </p>
+          </div>
+          <div class="col-8">
+            <div class="form-check form-check-inline">
+              <input type="radio" name="priority" class="form-check-input" id="minor" checked>
+              <label class="form-check-label" for="minor">Minor</label>
+              <input type="radio" name="priority" class="form-check-input" id="major">
+              <label class="form-check-label" for="major">Major</label>
+              <input type="radio" name="priority" class="form-check-input" id="trivial">
+              <label class="form-check-label" for="trivial">Trivial</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md">
+            <div class="form-group">
+              <button type="submit" class="btn btn-default w-25">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
       <ul class="bg-bubbles">
-      	<li></li>
-      	<li></li>
-      	<li></li>
-      	<li></li>
-      	<li></li>
-      	<li></li>
-        <li></li>
-      	<li></li>
-      	<li></li>
-      	<li></li>
-      </ul>
-    </div>
-    </div>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
   </body>
 </html>
