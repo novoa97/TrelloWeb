@@ -339,6 +339,20 @@ h1{
     font-size: 3rem;
   }
   .form {
-    margin-top: 8rem;
+    margin-top: 10rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px)
+    and (min-height: 800px ) and (max-height: 1000px) {
+  .navbar {
+    font-size: 1.7rem;
+  }
+  .navbar .navbar-brand{
+    font-size: 3rem;
+  }
+  .form {
+    margin-top: 15rem;
   }
 }
