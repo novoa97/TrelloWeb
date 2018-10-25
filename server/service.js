@@ -18,8 +18,6 @@ function newCardService( title, description, priority, callback){
   trello.create_card( card, function(response){
     console.log("Created")
   })
-  console.log(card)
-  callback("OK");
 }
 
 module.exports = {
