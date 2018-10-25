@@ -40,7 +40,7 @@ html,body{
 
 .navbar {
   border-bottom: .1rem solid rgb(43, 108, 167);
-  background: rgba(43, 108, 167, 0.87);
+  background: rgba(43, 108, 167, 0.80);
   color: white;
   text-align: center;
   font-size: 2rem;
@@ -69,11 +69,17 @@ html,body{
   border-radius: 1rem;
   color: white;
  }
-
- #brand-logo{
-   height: 6rem;
+.navbar-brand{
+  padding: 0;
+  line-height: 0;
+}
+ .navbar-brand img {
+   width: 10rem;
+   height: 5.5rem;
  }
-
+ #logo {
+   display: inline-block;
+ }
 #prior {
   font-size: 2rem;
   margin: 0;
