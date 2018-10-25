@@ -2,14 +2,22 @@ var express = require('express')
 var router = express.Router()
 var http = require('http'),
     qs = require('querystring');
+<<<<<<< HEAD
 var path    = require("path");
+=======
+>>>>>>> e19b1541c79f156519b0bbfc76e695106cf8f502
 
 var controlador = require('./controller.js')
 
 router.get("/newcard", function(req, res){
+<<<<<<< HEAD
   res.sendFile('public/formulario.html', {root:'.'})
 })
 
+=======
+  res.sendFile("newCard.html")
+} )
+>>>>>>> e19b1541c79f156519b0bbfc76e695106cf8f502
 router.get("/login", function(req, res){
   res.sendFile("login.html")
 } )
@@ -24,6 +32,7 @@ router.post("/newcard", function (req, res){
     res.send("Holi")
   })
 })
+<<<<<<< HEAD
 //COSES DE LOGIN DE GOOGLE
   // route for showing the profile page
 app.get('/profile', isLoggedIn, function(req, res) {
@@ -67,6 +76,8 @@ function isLoggedIn(req, res, next) {
     res.redirect('/');
 }
 
+=======
+>>>>>>> e19b1541c79f156519b0bbfc76e695106cf8f502
 router.post("/login", function (req, res){
   var user = req.body.title
   var desc = req.body.desc
