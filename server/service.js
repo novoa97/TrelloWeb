@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var trello = require('./trello.js')
 
 //id of labels trello
@@ -19,16 +18,6 @@ function newCardService( title, description, priority, callback){
   trello.create_card( card, function(response){
     console.log("Created")
   })
-=======
-function newCardService( title, description, priority, callback){
-  var card={
-    title: title,
-    description:description,
-    priority:priority
-  }
->>>>>>> e19b1541c79f156519b0bbfc76e695106cf8f502
-  console.log(card)
-  callback("OK");
 }
 
 module.exports = {

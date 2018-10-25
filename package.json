@@ -18,17 +18,11 @@
   "homepage": "https://github.com/fr-me-jim/APITrello#readme",
   "dependencies": {
     "body-parse": "^0.1.0",
-<<<<<<< HEAD
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "http": "0.0.0",
     "nodemon": "^1.18.4",
-    "request": "^2.88.0"
-=======
-    "express": "^4.16.3",
-    "http": "0.0.0",
-    "nodemailer": "^4.6.8",
-    "nodemon": "^1.18.4"
->>>>>>> e19b1541c79f156519b0bbfc76e695106cf8f502
+    "request": "^2.88.0",
+    "nodemailer": "^4.6.8"
   }
 }
